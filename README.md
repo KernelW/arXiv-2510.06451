@@ -16,6 +16,11 @@ source .venv/bin/activate
 pip install -U pip
 pip install numpy scipy matplotlib jupyter
 ```
+## How to run
+Open a notebook and click **Kernel → Restart & Run All**.
+
+## Outputs
+Generated data and figures are saved in the output directories specified inside each notebook (see the first cells for path settings).
 
 ## Data Generation
 The datasets for this project are generated using the Jupyter notebooks located in the `/Data_Generation` directory.
