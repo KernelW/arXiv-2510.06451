@@ -16,6 +16,7 @@ source .venv/bin/activate
 pip install -U pip
 pip install numpy scipy matplotlib jupyter
 ```
+
 ## How to run
 Launch Jupyter from the repository root directory (the folder containing `Data_Generation/` and `figures/`) to ensure relative paths work as expected.
 
