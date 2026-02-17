@@ -28,8 +28,8 @@ Generated data and figures are saved in the output directories specified inside 
 
 ## Quick demo / expected output
 A minimal end-to-end check is:
-1. Run `Data_Generation/Lambda_Matrix_Generate.ipynb` and `read_Lambda_Construct_triplet.ipynb`.
-2. Run `figures/fig2.ipynb`
+1. Run `Lambda_Matrix_Generate.ipynb` and `read_Lambda_Construct_triplet.ipynb`.
+2. Run `fig2.ipynb`
 
 You should obtain the Fig. 2 plot files (and any intermediate data files) in the output directories specified inside the notebooks.
 
