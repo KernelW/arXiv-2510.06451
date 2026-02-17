@@ -20,7 +20,7 @@ pip install numpy scipy matplotlib jupyter
 Open a notebook and click **Kernel → Restart & Run All**.
 
 ## Outputs
-Generated data and figures are saved in the output directories specified inside each notebook (see the first cells for path settings).
+Generated data and figures are saved in the output directories specified inside each notebook.
 
 ## Data Generation
 The datasets for this project are generated using the Jupyter notebooks located in the `/Data_Generation` directory.
