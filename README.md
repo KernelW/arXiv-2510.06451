@@ -9,11 +9,13 @@ Typical runtimes:
 
 ## Installation (pip)
 Create and activate a Python environment (recommended), then install dependencies:
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -U pip
 pip install numpy scipy matplotlib jupyter
+```
 
 ## Data Generation
 The datasets for this project are generated using the Jupyter notebooks located in the `/Data_Generation` directory.
