@@ -22,6 +22,24 @@ Open a notebook and click **Kernel → Restart & Run All**.
 ## Outputs
 Generated data and figures are saved in the output directories specified inside each notebook.
 
+## Dependencies
+- Python 3
+- numpy, scipy, matplotlib, jupyter (installed via pip as above)
+
+## Quick demo / expected output
+A minimal end-to-end check is:
+1. Run `Data_Generation/Lambda_Matrix_Generate.ipynb`
+2. Run `figures/fig2.ipynb`
+
+You should obtain the Fig. 2 plot files (and any intermediate data files) in the output directories specified inside the notebooks.
+
+## Parameter changes (running on new settings)
+To change physical parameters, edit the corresponding cells and rerun the notebook:
+- `Lambda_Matrix_Generate.ipynb`: search for `TBG_Parameter` (w0, w1, twist angle) and `Loc: COM_Tune` (pair momentum)
+- `read_Lambda_Construct_{triplet,singlet}.ipynb`: search for `loc_sym` (symmetry channel indices)
+- `Solvegrand_singlet.ipynb`: set `flat_dir` to switch between `lambda_singlet` and `lambda_triplet`
+
+
 ## Data Generation
 The datasets for this project are generated using the Jupyter notebooks located in the `/Data_Generation` directory.
 
