@@ -1,5 +1,20 @@
 # arXiv-2510.06451
 
+## System requirements
+This project uses **Python 3** and has been tested on **Apple Silicon (M2) with 16 GB memory**.
+
+Typical runtimes:
+- **Installation time (pip):** ~ **2–6 minutes** (network dependent).
+- **Notebook runtime:** each Jupyter notebook completes in **≤ 10 minutes** on an **M2 (16 GB RAM)**.
+
+## Installation (pip)
+Create and activate a Python environment (recommended), then install dependencies:
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -U pip
+pip install numpy scipy matplotlib jupyter
+
 ## Data Generation
 The datasets for this project are generated using the Jupyter notebooks located in the `/Data_Generation` directory.
 
