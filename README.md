@@ -69,6 +69,17 @@ The datasets for this project are generated using the Jupyter notebooks located 
 * **`read_Lambda_Construct_triplet.ipynb`** Constructs the Lambda-matrix for the triplet channel. By default, it processes the $A$-symmetry channel (`sym=0`). To generate the $E_1$ and $E_2$ channels, search for `loc_sym` and update the symmetry indices (e.g., `syms=(0,1,2)`).
 * **`read_Lambda_Construct_singlet.ipynb`** Constructs the Lambda-matrix for the singlet channel ($A$-symmetry, `sym=0`). Similarly, search for `loc_sym` to include other symmetry channels.
 
+### 3. Interaction Range Check
+* **`Finite_range.ipynb`** (in `/Data_Generation`) is used to verify and tune the finite real-space interaction range while preserving $C_3$ symmetry. Search for `RANGE` in this notebook to find the corresponding block/data used for tuning.
+* To construct the three $C_3$-related interaction vectors, we use:
+```python
+tau = delta1
+m = 5
+n = 0
+
+first  = tau + m*a1 + n*a2
+second = tau + n*a1 + (1 - m - n)*a2
+third  = tau + (1 - m - n)*a1 + m*a2
 ---
 
 ## Solving Gap Equations
