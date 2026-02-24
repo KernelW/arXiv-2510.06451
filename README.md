@@ -81,6 +81,7 @@ first  = tau + m*a1 + n*a2
 second = tau + n*a1 + (1 - m - n)*a2
 third  = tau + (1 - m - n)*a1 + m*a2
 ---
+```
 
 ## Solving Gap Equations
 Once the singlet and triplet form factors are stored, use the following notebooks to solve the gap equations:
