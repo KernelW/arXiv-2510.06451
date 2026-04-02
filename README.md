@@ -86,9 +86,7 @@ third  = tau + (1 - m - n)*a1 + m*a2
 ### 4. Thermodynamical Potential for Pairing Momentum Along a Trajectory
 Files `0` through `9` generate the form-factor matrices and the spin-singlet/triplet factors. Run all of these files first.
 
-After that, run `Solvegrand_Singlet.ipynb` and `Solvegrand_Triplet.ipynb` to compute the thermodynamical potential for specified parameters, such as temperature and interaction strength.
-
-You can vary the temperature and interaction strength to generate data for different parameter sets.
+After that, run `Solvegrand_Singlet.ipynb` and `Solvegrand_Triplet.ipynb` to compute the thermodynamical potential near zero temperature for specified parameters, such as interaction strength.
 
 ## Solving Gap Equations
 Once the singlet and triplet form factors are stored, use the following notebooks to solve the gap equations:
