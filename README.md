@@ -1,5 +1,7 @@
 # arXiv-2510.06451
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20432353.svg)](https://doi.org/10.5281/zenodo.20432353)
 
+Code associated with the manuscript **“Kekulé Superconductivity in Twisted Magic Angle Bilayer Graphene.”**
 ## System requirements
 This project uses **Python 3** and has been tested on **Apple Silicon (M2) with 16 GB memory**.
 
@@ -106,3 +108,9 @@ Notebooks for reproducing the main-text figures (Figs. 2–6) are located in the
 * **Fig. 4 (`fig4.ipynb`):** Displays results for the gap equation solved in the canonical ensemble.
 * **Fig. 5 (`fig5.ipynb`):** Generates Density of States (DOS) plots and two Bogoliubov-de Gennes (BdG) dispersions.
 * **Fig. 6 (`preparation_fig6.ipynb` & `fig6.ipynb`):** Calculates and plots zero-bias conductance. **Note:** Run `preparation_fig6.ipynb` first to process the data before executing `fig6.ipynb`.
+
+## Citation
+
+If you use this code, please cite the archived version:
+
+K. Wang, *Code for “Kekulé Superconductivity in Twisted Magic Angle Bilayer Graphene”*, Zenodo, 2026. DOI: [10.5281/zenodo.20432353](https://doi.org/10.5281/zenodo.20432353).
